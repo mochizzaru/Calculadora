@@ -47,7 +47,7 @@ public class Calculadora extends javax.swing.JFrame {
         jButton15 = new javax.swing.JButton();
         btnIgual = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         txtVisor.setText("   ");
@@ -187,6 +187,7 @@ public class Calculadora extends javax.swing.JFrame {
             getContentPane().add(btnIgual, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 320, 100, 40));
 
             pack();
+            setLocationRelativeTo(null);
         }// </editor-fold>//GEN-END:initComponents
 
     private void txtVisorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtVisorActionPerformed
